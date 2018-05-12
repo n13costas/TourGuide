@@ -33,7 +33,7 @@ public class Place {
     }
 
     // Get the telephone of place
-    public String getSongYear() {
+    public String getPlaceTelephone() {
         return mPlaceTelephone;
     }
 
