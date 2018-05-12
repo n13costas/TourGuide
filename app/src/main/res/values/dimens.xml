@@ -19,4 +19,7 @@
     <dimen name="spaceXXLarge">28dp</dimen>
     <dimen name="spaceXXXLarge">32dp</dimen>
 
+    <!-- Base space sizes. -->
+    <dimen name="photoSize">80dp</dimen>
+
 </resources>

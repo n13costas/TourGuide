@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spaceXSmall">
+
+    <ImageView
+        android:layout_width="@dimen/photoSize"
+        android:layout_height="@dimen/photoSize"
+        android:scaleType="centerCrop"
+        android:src="@color/colorPrimaryDark"
+        android:layout_weight="0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photoSize"
+        android:orientation="vertical"
+        android:layout_weight="0"
+        android:paddingLeft="@dimen/spaceXSmall"
+        android:paddingRight="@dimen/spaceXSmall">
+
+        <TextView
+            android:id="@+id/text_place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:text="Place Name"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/text_place_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="Place Address"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/text_place_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="Place Telephone"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
