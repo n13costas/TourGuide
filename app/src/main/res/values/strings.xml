@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Athens Guide</string>
+    <string name="app_motto">City of Gods</string>
+    <string name="app_start">Start</string>
+    <string name="app_list_header">Places of interest</string>
+    <string name="app_details_header">Place detail</string>
+    <string name="app_back">Back</string>
+</resources>
