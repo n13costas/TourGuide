@@ -20,7 +20,7 @@ public class SightsActivity extends AppCompatActivity {
         Sights.add(new Place("Odeon Irodou Attikou", "Harry Chapin str.", "215 3697845", R.drawable.sight_irodou));
 
 
-        // Create a PlaceAdapter, whose data source is a list of Places, especially museums in this activity.
+        // Create a PlaceAdapter, whose data source is a list of Places, especially sight in this activity.
         // The adapter knows how to create list item views for each item in the list.
         PlaceAdapter sightsAdapter = new PlaceAdapter(this, Sights);
 

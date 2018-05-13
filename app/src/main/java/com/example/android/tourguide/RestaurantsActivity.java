@@ -20,7 +20,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         Restaurants.add(new Place("Funky Gourmet", "Harry Chapin str.", "215 3697845", R.drawable.restaurant_funky));
 
 
-        // Create a PlaceAdapter, whose data source is a list of Places, especially museums in this activity.
+        // Create a PlaceAdapter, whose data source is a list of Places, especially restaurants in this activity.
         // The adapter knows how to create list item views for each item in the list.
         PlaceAdapter restaurantsAdapter = new PlaceAdapter(this, Restaurants);
 

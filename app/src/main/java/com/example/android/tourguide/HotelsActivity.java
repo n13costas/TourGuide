@@ -20,7 +20,7 @@ public class HotelsActivity extends AppCompatActivity {
         Hotels.add(new Place("Divani Caravel", "Harry Chapin str.", "215 3697845", R.drawable.hotel_divani));
 
 
-        // Create a PlaceAdapter, whose data source is a list of Places, especially museums in this activity.
+        // Create a PlaceAdapter, whose data source is a list of Places, especially hotels in this activity.
         // The adapter knows how to create list item views for each item in the list.
         PlaceAdapter hotelAdapter = new PlaceAdapter(this, Hotels);
 
