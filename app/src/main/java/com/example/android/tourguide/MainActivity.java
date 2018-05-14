@@ -17,7 +17,7 @@ public class MainActivity extends  AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent tabsIntent = new Intent(MainActivity.this, HotelsActivity.class);
+                Intent tabsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
                 startActivity(tabsIntent);
             }
         });
