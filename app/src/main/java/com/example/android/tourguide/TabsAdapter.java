@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 //Setting the tabs adapter
-
 public class TabsAdapter extends FragmentStatePagerAdapter {
     int mNumberOfTabs;
     public TabsAdapter(FragmentManager fm, int numberOfTabs){

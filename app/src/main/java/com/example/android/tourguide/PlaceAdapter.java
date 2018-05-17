@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 public class PlaceAdapter extends ArrayAdapter<Place> {
 
-
     public PlaceAdapter(Activity context, ArrayList<Place> Places) {
         super(context, 0, Places);
     }

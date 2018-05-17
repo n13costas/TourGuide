@@ -6,6 +6,31 @@
     <string name="app_details_header">Place detail</string>
     <string name="app_back">Back</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //Generic data
+    <string name="place1_address">Irodotou 2 str.</string>
+    <string name="place2_address">Asklipiou 47 str.</string>
+    <string name="place3_address">Harry Chapin str.</string>
+    <string name="place1_tel">210 1234567</string>
+    <string name="place2_tel">210 4589745</string>
+    <string name="place3_tel">215 3697845</string>
+
+    //Hotels strings
+    <string name="hotel1_name">Hilton Athens</string>
+    <string name="hotel2_name">Grande Bretagne</string>
+    <string name="hotel3_name">Divani Caravel</string>
+
+    //Restaurants strings
+    <string name="restaurant1_name">Botrinis</string>
+    <string name="restaurant2_name">Spondi</string>
+    <string name="restaurant3_name">Funky Gourmet</string>
+
+    //Museums strings
+    <string name="museum1_name">Acropolis Museum</string>
+    <string name="museum2_name">National Museum</string>
+    <string name="museum3_name">Benaki Museum</string>
+
+    //Sights strings
+    <string name="sight1_name">Acropolis</string>
+    <string name="sight2_name">Sounio</string>
+    <string name="sight3_name">DOdeon Irodou Attikou</string>
 </resources>

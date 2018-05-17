@@ -6,9 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-
 import java.util.ArrayList;
-
 
 public class HotelsFragment extends Fragment {
 
@@ -21,10 +19,9 @@ public class HotelsFragment extends Fragment {
 
         // Create an ArrayList of Places, adding hotels
         final ArrayList<Place> Hotels = new ArrayList<>();
-        Hotels.add(new Place("Hilton Athens", "Irodotou 2 str.", "210 1234567", R.drawable.hotel_hilton));
-        Hotels.add(new Place("Grande Bretagne", "Asklipiou 47 str.", "210 4589745", R.drawable.hotel_bretagne));
-        Hotels.add(new Place("Divani Caravel", "Harry Chapin str.", "215 3697845", R.drawable.hotel_divani));
-
+        Hotels.add(new Place(this.getResources().getString(R.string.hotel1_name), this.getResources().getString(R.string.place1_address), this.getResources().getString(R.string.place1_tel), R.drawable.hotel_hilton));
+        Hotels.add(new Place(this.getResources().getString(R.string.hotel2_name), this.getResources().getString(R.string.place2_address), this.getResources().getString(R.string.place2_tel), R.drawable.hotel_bretagne));
+        Hotels.add(new Place(this.getResources().getString(R.string.hotel3_name), this.getResources().getString(R.string.place3_address), this.getResources().getString(R.string.place3_tel), R.drawable.hotel_divani));
 
         // Create a PlaceAdapter, whose data source is a list of Places, especially hotels in this activity.
         // The adapter knows how to create list item views for each item in the list.
